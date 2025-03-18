@@ -45,4 +45,4 @@ Technical support and customized services for Open5GS are provided by [NewPlane]
 
 ## ETRI's fork
 This is a fork from original site, and it is to be desigend to support dual steer.
-
+듀얼 스티어 서비스를 위한 open5Gs를 수정한번 해볼까요!!!
