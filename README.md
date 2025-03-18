@@ -42,3 +42,7 @@ If you're contributing through a pull request to Open5GS project on GitHub, plea
 ## Support
 
 Technical support and customized services for Open5GS are provided by [NewPlane](https://newplane.io/) at [support@newplane.io](mailto:support@newplane.io).
+
+## ETRI's fork
+This is a fork from original site, and it is to be desigend to support dual steer.
+
