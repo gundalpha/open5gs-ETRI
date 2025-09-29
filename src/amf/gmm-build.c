@@ -130,7 +130,7 @@ ogs_pkbuf_t *gmm_build_registration_accept(amf_ue_t *amf_ue)
     network_feature_support->
         ims_voice_over_ps_session_over_3gpp_access_indicator = 1;
 #else
-    network_feature_support->length = 2;
+    network_feature_support->length = 4;
     network_feature_support->
         ims_voice_over_ps_session_over_3gpp_access_indicator = 1;
     network_feature_support->
