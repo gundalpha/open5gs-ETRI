@@ -272,7 +272,7 @@ ED7(uint8_t user_plane_ciot_5gs_optimization:1;,
     uint8_t restriction_on_enhanced_coverage:2;,
     uint8_t mcs_indicator:1;,
     uint8_t emergency_service_support_for_non_3gpp_access_indicator:1;)
-ED8(uint8_t spare:1;,
+ED8(uint8_t un_per:1;,
     uint8_t paging_restriction:1;,
     uint8_t reject_paging_request:1;,
     uint8_t paging_indication_for_voice_services:1;,
@@ -280,6 +280,15 @@ ED8(uint8_t spare:1;,
     uint8_t ethernet_header_compression_for_control_plane_ciot_5gs_optimization:1;,
     uint8_t atsss_support_indicator:1;,
     uint8_t location_services_indicator_in_5gc:1;)
+#ifdef DUALSTEER
+ED7(uint8_t spare:2;,
+    uint8_t dualsteer_indication:1;,
+    uint8_t mlssup:1;,
+    uint8_t rslp:1;,
+    uint8_t supl:1;,
+    uint8_t lcs_upp:1;,
+    uint8_t naps:1;)
+#endif // DUALSTEER
 } ogs_nas_5gs_network_feature_support_t;
 
 /* 9.11.3.6 5GS registration result

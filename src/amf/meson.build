@@ -66,6 +66,7 @@ libamf_sources = files('''
 
 libamf = static_library('amf',
     sources : libamf_sources,
+    c_args: '-DDUALSTEER'
     dependencies : [libmetrics_dep,
                     libsctp_dep,
                     libngap_dep,
