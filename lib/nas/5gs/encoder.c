@@ -551,6 +551,7 @@ int ogs_nas_5gs_encode_registration_accept(ogs_pkbuf_t *pkbuf, ogs_nas_5gs_messa
         ogs_assert(size >= 0);
         encoded += size;
 
+		ogs_debug("[mrpark] registration_accept->network_feature_support = %x", registration_accept->network_feature_support);
         size = ogs_nas_5gs_encode_5gs_network_feature_support(pkbuf, &registration_accept->network_feature_support);
         ogs_assert(size >= 0);
         encoded += size;
